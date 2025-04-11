@@ -1,0 +1,29 @@
+[1.621s] Invoking command in '/home/vudinhso/RMIT_Bot/lesson1_ws/src/my_first_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build install --record /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/install.log --single-version-externally-managed install_data
+[2.197s] running egg_info
+[2.230s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[2.230s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[2.230s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[2.232s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[2.232s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[2.305s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[2.309s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[2.309s] running build
+[2.309s] running build_py
+[2.309s] copying my_first_package/simple_publisher.py -> /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build/lib/my_first_package
+[2.309s] copying my_first_package/simple_subscriber.py -> /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build/lib/my_first_package
+[2.309s] running install
+[2.317s] running install_lib
+[2.347s] copying /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build/lib/my_first_package/simple_publisher.py -> /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[2.348s] copying /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build/lib/my_first_package/simple_subscriber.py -> /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package
+[2.349s] byte-compiling /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/simple_publisher.py to simple_publisher.cpython-312.pyc
+[2.350s] byte-compiling /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package/simple_subscriber.py to simple_subscriber.cpython-312.pyc
+[2.350s] running install_data
+[2.350s] copying package.xml -> /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/share/my_first_package
+[2.353s] running install_egg_info
+[2.392s] removing '/home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info' (and everything under it)
+[2.393s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages/my_first_package-0.0.0-py3.12.egg-info
+[2.394s] running install_scripts
+[2.617s] Installing simple_publisher script to /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/my_first_package
+[2.620s] Installing simple_subscriber script to /home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/my_first_package
+[2.620s] writing list of installed files to '/home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/install.log'
+[2.708s] Invoked command in '/home/vudinhso/RMIT_Bot/lesson1_ws/src/my_first_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vudinhso/RMIT_Bot/lesson1_ws/install/my_first_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/build install --record /home/vudinhso/RMIT_Bot/lesson1_ws/build/my_first_package/install.log --single-version-externally-managed install_data
