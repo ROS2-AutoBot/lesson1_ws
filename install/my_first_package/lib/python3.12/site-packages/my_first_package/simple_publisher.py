@@ -1,10 +1,9 @@
-# Contain the logic
-
+# This is a node that publishes messages to a topic named "chatter" at a frequency of 1 Hz. 
 import rclpy    # Import the rclpy library
 from rclpy.node import Node  # Import the Node class from rclpy
 from std_msgs.msg import String  # Import the String message type from std_msgs
 
-class SimplePublisher(Node):    # Define a class that inherits from Node
+class SimplePublisher(Node):    # Define a class that inherits from Node class
     def __init__(self):  # Constructor method
         super().__init__('simple_publisher')  # Call the constructor of the parent class with the node name
         self.pub_ = self.create_publisher(String, "chatter", 10)

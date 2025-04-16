@@ -8,6 +8,7 @@ setup.py
 ../../build/my_first_package/my_first_package.egg-info/requires.txt
 ../../build/my_first_package/my_first_package.egg-info/top_level.txt
 ../../build/my_first_package/my_first_package.egg-info/zip-safe
+launch/my_first_launch.launch.py
 my_first_package/__init__.py
 my_first_package/simple_publisher.py
 my_first_package/simple_subscriber.py
